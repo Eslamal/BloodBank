@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="text_view3">
+        <item name="android:textColor">@color/hintcolor</item>
+        <item name="android:layout_marginTop">@dimen/d4</item>
+        <item name="android:layout_marginStart">@dimen/d14</item>
+        <item name="android:layout_marginEnd">@dimen/d14</item>
+        <item name="android:textSize">@dimen/txt_30sp</item>
+        <item name="android:paddingTop">@dimen/d8</item>
+        <item name="android:paddingStart">@dimen/d4</item>
+        <item name="android:paddingEnd">@dimen/d4</item>
+        <item name="android:paddingBottom">@dimen/d8</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:textColor">@color/txt_color</item>
+        <item name="android:layout_marginTop">@dimen/d4</item>
+        <item name="android:layout_marginStart">@dimen/d14</item>
+        <item name="android:layout_marginEnd">@dimen/d14</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+        <item name="android:paddingTop">@dimen/d8</item>
+        <item name="android:paddingStart">@dimen/d4</item>
+        <item name="android:paddingEnd">@dimen/d4</item>
+        <item name="android:paddingBottom">@dimen/d8</item>
+    </style>
+
+    <style name="text_view2">
+        <item name="android:background">@drawable/shape_et</item>
+        <item name="android:textColor">@color/gray2</item>
+        <item name="android:layout_marginTop">@dimen/d4</item>
+        <item name="android:layout_marginStart">@dimen/d8</item>
+        <item name="android:layout_marginEnd">@dimen/d8</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+        <item name="android:padding">@dimen/d8</item>
+    </style>
+
+    <style name="view">
+
+        <item name="android:background">@color/move</item>
+
+        <item name="android:layout_marginTop">@dimen/d4</item>
+
+        <item name="android:layout_marginStart">@dimen/d8</item>
+
+        <item name="android:layout_marginEnd">@dimen/d8</item>
+
+        <item name="android:padding">@dimen/d4</item>
+
+    </style>
+
+    <style name="InputText">
+        <item name="android:background">@drawable/etidetext_shap</item>
+        <item name="android:padding">@dimen/d5</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorHint">@color/hintcolor</item>
+        <item name="android:drawablePadding">@dimen/d5</item>
+        <item name="android:layout_margin">@dimen/d8</item>
+    </style>
+
+    <style name="InputTextDonation">
+        <item name="android:background">@drawable/etbackgroundpic</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColorHint">@color/hintcolor</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+
+    <dimen name="txt_16sp">16sp</dimen>
+</resources>
